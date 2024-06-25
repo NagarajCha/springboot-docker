@@ -18,7 +18,7 @@ public class WelcomeRestController {
 	@GetMapping
 	public String welcomeMsg() {
 		logger.info("***** welcomeMsg() execution start *****");
-		String msg = "Hi machha Nanu En samachar";
+		String msg = "Hi machha matt En samachar nan Chabbi";
 		logger.info("***** welcomeMsg() execution end *****");
 		return msg;
 	}
